@@ -1,0 +1,61 @@
+h1 {
+  font-family: Almarai, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  text-align: center;
+  font-size: 50px; }
+
+h2 {
+  font-family: Almarai, sans-serif;
+  font-weight: 800;
+  text-align: center; }
+
+table {
+  background-color: #d4e9fe;
+  max-width: 1000px;
+  margin: auto;
+  border: 2px solid #5594aa;
+  border-radius: 10px;
+  border-spacing: 0; }
+  table thead {
+    background-color: #3366CC;
+    color: white; }
+    table thead tr th {
+      font-family: Almarai, sans-serif;
+      font-weight: 800;
+      border-right: solid 1px #aaa;
+      padding: 15px; }
+      table thead tr th:first-child {
+        border: solid 1px transparent;
+        border-top-left-radius: 7px;
+        border-right: solid 1px #aaa; }
+      table thead tr th:last-child {
+        border: solid 1px transparent;
+        border-top-right-radius: 7px; }
+      table thead tr th.name {
+        width: 20%; }
+      table thead tr th.level {
+        width: 5%; }
+      table thead tr th.species {
+        width: 10%; }
+      table thead tr th.nation {
+        width: 20%; }
+      table thead tr th.location {
+        width: 20%; }
+      table thead tr th.spawntime {
+        width: 15%; }
+      table thead tr th.completed {
+        width: 10%; }
+  table tbody tr.completed {
+    background-color: green; }
+  table tbody tr td {
+    font-family: Almarai, sans-serif;
+    font-weight: 400;
+    padding: 8px;
+    border-right: solid 1px #aaa;
+    border-bottom: solid 1px #aaa; }
+    table tbody tr td:last-child {
+      /*text-align: center;*/
+      border-right: none; }
+
+/*# sourceMappingURL=styles.css.map */

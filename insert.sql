@@ -1,0 +1,17 @@
+INSERT INTO `ums` (`id`, `name`, `level`, `species`, `nation`, `location`, `spawntime`, `link`, `completed`)
+VALUES (NULL,
+'Atest',
+'99',
+'Blade Bot',
+'Empire of Mor Ardain',
+'Old Factory',
+'Final Chapter',
+'wiki/Antecedent_Xiaxia', '0'),
+(NULL,
+'test',
+'78',
+'fff',
+'ddd',
+'fff',
+'ddd',
+'sdfdf', '0');
